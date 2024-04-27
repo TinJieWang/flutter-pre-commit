@@ -1,3 +1,5 @@
+#!/bin/sh
+
 flutter packages get   # install packages
 flutter pub run build_runner build  # clean build
 flutter analyze $@  # analyze code
